@@ -1,0 +1,2484 @@
+[
+    {
+        "message": "Evaluation started at 2025-09-01 17:00:56",
+        "timestamp": "2025-09-01 17:00:56.866347"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_1.pth",
+        "class": "광선각화증",
+        "TP": 38,
+        "FP": 15,
+        "TN": 1385,
+        "FN": 62,
+        "timestamp": "2025-09-01 17:05:34.584469"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_1.pth",
+        "class": "기저세포암",
+        "TP": 77,
+        "FP": 4,
+        "TN": 1396,
+        "FN": 23,
+        "timestamp": "2025-09-01 17:05:34.584682"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_1.pth",
+        "class": "멜라닌세포모반",
+        "TP": 63,
+        "FP": 18,
+        "TN": 1382,
+        "FN": 37,
+        "timestamp": "2025-09-01 17:05:34.584759"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_1.pth",
+        "class": "보웬병",
+        "TP": 3,
+        "FP": 4,
+        "TN": 1396,
+        "FN": 97,
+        "timestamp": "2025-09-01 17:05:34.584822"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_1.pth",
+        "class": "비립종",
+        "TP": 70,
+        "FP": 11,
+        "TN": 1389,
+        "FN": 30,
+        "timestamp": "2025-09-01 17:05:34.584856"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_1.pth",
+        "class": "사마귀",
+        "TP": 33,
+        "FP": 16,
+        "TN": 1384,
+        "FN": 67,
+        "timestamp": "2025-09-01 17:05:34.584878"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_1.pth",
+        "class": "악성흑색종",
+        "TP": 83,
+        "FP": 32,
+        "TN": 1368,
+        "FN": 17,
+        "timestamp": "2025-09-01 17:05:34.584927"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_1.pth",
+        "class": "지루각화증",
+        "TP": 82,
+        "FP": 22,
+        "TN": 1378,
+        "FN": 18,
+        "timestamp": "2025-09-01 17:05:34.584977"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_1.pth",
+        "class": "편평세포암",
+        "TP": 12,
+        "FP": 56,
+        "TN": 1344,
+        "FN": 88,
+        "timestamp": "2025-09-01 17:05:34.585025"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_1.pth",
+        "class": "표피낭종",
+        "TP": 47,
+        "FP": 15,
+        "TN": 1385,
+        "FN": 53,
+        "timestamp": "2025-09-01 17:05:34.585074"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_1.pth",
+        "class": "피부섬유종",
+        "TP": 14,
+        "FP": 26,
+        "TN": 1374,
+        "FN": 86,
+        "timestamp": "2025-09-01 17:05:34.585125"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_1.pth",
+        "class": "피지샘증식증",
+        "TP": 76,
+        "FP": 21,
+        "TN": 1379,
+        "FN": 24,
+        "timestamp": "2025-09-01 17:05:34.585153"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_1.pth",
+        "class": "혈관종",
+        "TP": 1,
+        "FP": 60,
+        "TN": 1340,
+        "FN": 99,
+        "timestamp": "2025-09-01 17:05:34.585179"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_1.pth",
+        "class": "화농 육아종",
+        "TP": 100,
+        "FP": 377,
+        "TN": 1023,
+        "FN": 0,
+        "timestamp": "2025-09-01 17:05:34.585233"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_1.pth",
+        "class": "흑색점",
+        "TP": 96,
+        "FP": 28,
+        "TN": 1372,
+        "FN": 4,
+        "timestamp": "2025-09-01 17:05:34.585267"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_1.pth",
+        "top1_accuracy": 0.53,
+        "top3_accuracy": 0.8586666666666667,
+        "roc_auc_ovr": 0.9015299999999999,
+        "classification_report": {
+            "광선각화증": {
+                "precision": 0.7169811320754716,
+                "recall": 0.38,
+                "f1-score": 0.49673202614379086,
+                "support": 100.0
+            },
+            "기저세포암": {
+                "precision": 0.9506172839506173,
+                "recall": 0.77,
+                "f1-score": 0.850828729281768,
+                "support": 100.0
+            },
+            "멜라닌세포모반": {
+                "precision": 0.7777777777777778,
+                "recall": 0.63,
+                "f1-score": 0.6961325966850829,
+                "support": 100.0
+            },
+            "보웬병": {
+                "precision": 0.42857142857142855,
+                "recall": 0.03,
+                "f1-score": 0.056074766355140186,
+                "support": 100.0
+            },
+            "비립종": {
+                "precision": 0.8641975308641975,
+                "recall": 0.7,
+                "f1-score": 0.7734806629834254,
+                "support": 100.0
+            },
+            "사마귀": {
+                "precision": 0.673469387755102,
+                "recall": 0.33,
+                "f1-score": 0.4429530201342282,
+                "support": 100.0
+            },
+            "악성흑색종": {
+                "precision": 0.7217391304347827,
+                "recall": 0.83,
+                "f1-score": 0.772093023255814,
+                "support": 100.0
+            },
+            "지루각화증": {
+                "precision": 0.7884615384615384,
+                "recall": 0.82,
+                "f1-score": 0.803921568627451,
+                "support": 100.0
+            },
+            "편평세포암": {
+                "precision": 0.17647058823529413,
+                "recall": 0.12,
+                "f1-score": 0.14285714285714285,
+                "support": 100.0
+            },
+            "표피낭종": {
+                "precision": 0.7580645161290323,
+                "recall": 0.47,
+                "f1-score": 0.5802469135802469,
+                "support": 100.0
+            },
+            "피부섬유종": {
+                "precision": 0.35,
+                "recall": 0.14,
+                "f1-score": 0.2,
+                "support": 100.0
+            },
+            "피지샘증식증": {
+                "precision": 0.7835051546391752,
+                "recall": 0.76,
+                "f1-score": 0.7715736040609137,
+                "support": 100.0
+            },
+            "혈관종": {
+                "precision": 0.01639344262295082,
+                "recall": 0.01,
+                "f1-score": 0.012422360248447204,
+                "support": 100.0
+            },
+            "화농 육아종": {
+                "precision": 0.20964360587002095,
+                "recall": 1.0,
+                "f1-score": 0.3466204506065858,
+                "support": 100.0
+            },
+            "흑색점": {
+                "precision": 0.7741935483870968,
+                "recall": 0.96,
+                "f1-score": 0.8571428571428571,
+                "support": 100.0
+            },
+            "accuracy": 0.53,
+            "macro avg": {
+                "precision": 0.5993390710516323,
+                "recall": 0.5299999999999999,
+                "f1-score": 0.5202053147975262,
+                "support": 1500.0
+            },
+            "weighted avg": {
+                "precision": 0.5993390710516323,
+                "recall": 0.53,
+                "f1-score": 0.5202053147975262,
+                "support": 1500.0
+            }
+        },
+        "timestamp": "2025-09-01 17:05:34.585306"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_2.pth",
+        "class": "광선각화증",
+        "TP": 17,
+        "FP": 13,
+        "TN": 1387,
+        "FN": 83,
+        "timestamp": "2025-09-01 17:10:13.397591"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_2.pth",
+        "class": "기저세포암",
+        "TP": 88,
+        "FP": 32,
+        "TN": 1368,
+        "FN": 12,
+        "timestamp": "2025-09-01 17:10:13.397747"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_2.pth",
+        "class": "멜라닌세포모반",
+        "TP": 76,
+        "FP": 31,
+        "TN": 1369,
+        "FN": 24,
+        "timestamp": "2025-09-01 17:10:13.397791"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_2.pth",
+        "class": "보웬병",
+        "TP": 1,
+        "FP": 31,
+        "TN": 1369,
+        "FN": 99,
+        "timestamp": "2025-09-01 17:10:13.397812"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_2.pth",
+        "class": "비립종",
+        "TP": 62,
+        "FP": 14,
+        "TN": 1386,
+        "FN": 38,
+        "timestamp": "2025-09-01 17:10:13.397832"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_2.pth",
+        "class": "사마귀",
+        "TP": 38,
+        "FP": 54,
+        "TN": 1346,
+        "FN": 62,
+        "timestamp": "2025-09-01 17:10:13.397850"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_2.pth",
+        "class": "악성흑색종",
+        "TP": 71,
+        "FP": 24,
+        "TN": 1376,
+        "FN": 29,
+        "timestamp": "2025-09-01 17:10:13.397890"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_2.pth",
+        "class": "지루각화증",
+        "TP": 29,
+        "FP": 0,
+        "TN": 1400,
+        "FN": 71,
+        "timestamp": "2025-09-01 17:10:13.398086"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_2.pth",
+        "class": "편평세포암",
+        "TP": 52,
+        "FP": 92,
+        "TN": 1308,
+        "FN": 48,
+        "timestamp": "2025-09-01 17:10:13.398115"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_2.pth",
+        "class": "표피낭종",
+        "TP": 69,
+        "FP": 32,
+        "TN": 1368,
+        "FN": 31,
+        "timestamp": "2025-09-01 17:10:13.398150"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_2.pth",
+        "class": "피부섬유종",
+        "TP": 10,
+        "FP": 86,
+        "TN": 1314,
+        "FN": 90,
+        "timestamp": "2025-09-01 17:10:13.398179"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_2.pth",
+        "class": "피지샘증식증",
+        "TP": 34,
+        "FP": 12,
+        "TN": 1388,
+        "FN": 66,
+        "timestamp": "2025-09-01 17:10:13.398221"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_2.pth",
+        "class": "혈관종",
+        "TP": 44,
+        "FP": 165,
+        "TN": 1235,
+        "FN": 56,
+        "timestamp": "2025-09-01 17:10:13.398250"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_2.pth",
+        "class": "화농 육아종",
+        "TP": 98,
+        "FP": 172,
+        "TN": 1228,
+        "FN": 2,
+        "timestamp": "2025-09-01 17:10:13.398269"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_2.pth",
+        "class": "흑색점",
+        "TP": 48,
+        "FP": 5,
+        "TN": 1395,
+        "FN": 52,
+        "timestamp": "2025-09-01 17:10:13.398408"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_2.pth",
+        "top1_accuracy": 0.49133333333333334,
+        "top3_accuracy": 0.7973333333333333,
+        "roc_auc_ovr": 0.9178971428571427,
+        "classification_report": {
+            "광선각화증": {
+                "precision": 0.5666666666666667,
+                "recall": 0.17,
+                "f1-score": 0.26153846153846155,
+                "support": 100.0
+            },
+            "기저세포암": {
+                "precision": 0.7333333333333333,
+                "recall": 0.88,
+                "f1-score": 0.8,
+                "support": 100.0
+            },
+            "멜라닌세포모반": {
+                "precision": 0.7102803738317757,
+                "recall": 0.76,
+                "f1-score": 0.7342995169082126,
+                "support": 100.0
+            },
+            "보웬병": {
+                "precision": 0.03125,
+                "recall": 0.01,
+                "f1-score": 0.015151515151515152,
+                "support": 100.0
+            },
+            "비립종": {
+                "precision": 0.8157894736842105,
+                "recall": 0.62,
+                "f1-score": 0.7045454545454546,
+                "support": 100.0
+            },
+            "사마귀": {
+                "precision": 0.41304347826086957,
+                "recall": 0.38,
+                "f1-score": 0.3958333333333333,
+                "support": 100.0
+            },
+            "악성흑색종": {
+                "precision": 0.7473684210526316,
+                "recall": 0.71,
+                "f1-score": 0.7282051282051282,
+                "support": 100.0
+            },
+            "지루각화증": {
+                "precision": 1.0,
+                "recall": 0.29,
+                "f1-score": 0.4496124031007752,
+                "support": 100.0
+            },
+            "편평세포암": {
+                "precision": 0.3611111111111111,
+                "recall": 0.52,
+                "f1-score": 0.4262295081967213,
+                "support": 100.0
+            },
+            "표피낭종": {
+                "precision": 0.6831683168316832,
+                "recall": 0.69,
+                "f1-score": 0.6865671641791045,
+                "support": 100.0
+            },
+            "피부섬유종": {
+                "precision": 0.10416666666666667,
+                "recall": 0.1,
+                "f1-score": 0.10204081632653061,
+                "support": 100.0
+            },
+            "피지샘증식증": {
+                "precision": 0.7391304347826086,
+                "recall": 0.34,
+                "f1-score": 0.4657534246575342,
+                "support": 100.0
+            },
+            "혈관종": {
+                "precision": 0.21052631578947367,
+                "recall": 0.44,
+                "f1-score": 0.284789644012945,
+                "support": 100.0
+            },
+            "화농 육아종": {
+                "precision": 0.362962962962963,
+                "recall": 0.98,
+                "f1-score": 0.5297297297297298,
+                "support": 100.0
+            },
+            "흑색점": {
+                "precision": 0.9056603773584906,
+                "recall": 0.48,
+                "f1-score": 0.6274509803921569,
+                "support": 100.0
+            },
+            "accuracy": 0.49133333333333334,
+            "macro avg": {
+                "precision": 0.5589638621554989,
+                "recall": 0.4913333333333333,
+                "f1-score": 0.4807831386851735,
+                "support": 1500.0
+            },
+            "weighted avg": {
+                "precision": 0.5589638621554989,
+                "recall": 0.49133333333333334,
+                "f1-score": 0.48078313868517353,
+                "support": 1500.0
+            }
+        },
+        "timestamp": "2025-09-01 17:10:13.398720"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_3.pth",
+        "class": "광선각화증",
+        "TP": 88,
+        "FP": 44,
+        "TN": 1356,
+        "FN": 12,
+        "timestamp": "2025-09-01 17:14:58.394274"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_3.pth",
+        "class": "기저세포암",
+        "TP": 95,
+        "FP": 20,
+        "TN": 1380,
+        "FN": 5,
+        "timestamp": "2025-09-01 17:14:58.394431"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_3.pth",
+        "class": "멜라닌세포모반",
+        "TP": 58,
+        "FP": 14,
+        "TN": 1386,
+        "FN": 42,
+        "timestamp": "2025-09-01 17:14:58.394486"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_3.pth",
+        "class": "보웬병",
+        "TP": 84,
+        "FP": 1,
+        "TN": 1399,
+        "FN": 16,
+        "timestamp": "2025-09-01 17:14:58.394557"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_3.pth",
+        "class": "비립종",
+        "TP": 53,
+        "FP": 24,
+        "TN": 1376,
+        "FN": 47,
+        "timestamp": "2025-09-01 17:14:58.394599"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_3.pth",
+        "class": "사마귀",
+        "TP": 37,
+        "FP": 10,
+        "TN": 1390,
+        "FN": 63,
+        "timestamp": "2025-09-01 17:14:58.394627"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_3.pth",
+        "class": "악성흑색종",
+        "TP": 50,
+        "FP": 4,
+        "TN": 1396,
+        "FN": 50,
+        "timestamp": "2025-09-01 17:14:58.394674"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_3.pth",
+        "class": "지루각화증",
+        "TP": 84,
+        "FP": 62,
+        "TN": 1338,
+        "FN": 16,
+        "timestamp": "2025-09-01 17:14:58.394727"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_3.pth",
+        "class": "편평세포암",
+        "TP": 96,
+        "FP": 5,
+        "TN": 1395,
+        "FN": 4,
+        "timestamp": "2025-09-01 17:14:58.394767"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_3.pth",
+        "class": "표피낭종",
+        "TP": 78,
+        "FP": 4,
+        "TN": 1396,
+        "FN": 22,
+        "timestamp": "2025-09-01 17:14:58.394808"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_3.pth",
+        "class": "피부섬유종",
+        "TP": 71,
+        "FP": 10,
+        "TN": 1390,
+        "FN": 29,
+        "timestamp": "2025-09-01 17:14:58.395194"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_3.pth",
+        "class": "피지샘증식증",
+        "TP": 99,
+        "FP": 111,
+        "TN": 1289,
+        "FN": 1,
+        "timestamp": "2025-09-01 17:14:58.395250"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_3.pth",
+        "class": "혈관종",
+        "TP": 81,
+        "FP": 2,
+        "TN": 1398,
+        "FN": 19,
+        "timestamp": "2025-09-01 17:14:58.395449"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_3.pth",
+        "class": "화농 육아종",
+        "TP": 100,
+        "FP": 18,
+        "TN": 1382,
+        "FN": 0,
+        "timestamp": "2025-09-01 17:14:58.395659"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_3.pth",
+        "class": "흑색점",
+        "TP": 84,
+        "FP": 13,
+        "TN": 1387,
+        "FN": 16,
+        "timestamp": "2025-09-01 17:14:58.395744"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_3.pth",
+        "top1_accuracy": 0.772,
+        "top3_accuracy": 0.9366666666666666,
+        "roc_auc_ovr": 0.9805038095238096,
+        "classification_report": {
+            "광선각화증": {
+                "precision": 0.6666666666666666,
+                "recall": 0.88,
+                "f1-score": 0.7586206896551724,
+                "support": 100.0
+            },
+            "기저세포암": {
+                "precision": 0.8260869565217391,
+                "recall": 0.95,
+                "f1-score": 0.8837209302325582,
+                "support": 100.0
+            },
+            "멜라닌세포모반": {
+                "precision": 0.8055555555555556,
+                "recall": 0.58,
+                "f1-score": 0.6744186046511628,
+                "support": 100.0
+            },
+            "보웬병": {
+                "precision": 0.9882352941176471,
+                "recall": 0.84,
+                "f1-score": 0.9081081081081082,
+                "support": 100.0
+            },
+            "비립종": {
+                "precision": 0.6883116883116883,
+                "recall": 0.53,
+                "f1-score": 0.5988700564971752,
+                "support": 100.0
+            },
+            "사마귀": {
+                "precision": 0.7872340425531915,
+                "recall": 0.37,
+                "f1-score": 0.5034013605442177,
+                "support": 100.0
+            },
+            "악성흑색종": {
+                "precision": 0.9259259259259259,
+                "recall": 0.5,
+                "f1-score": 0.6493506493506493,
+                "support": 100.0
+            },
+            "지루각화증": {
+                "precision": 0.5753424657534246,
+                "recall": 0.84,
+                "f1-score": 0.6829268292682927,
+                "support": 100.0
+            },
+            "편평세포암": {
+                "precision": 0.9504950495049505,
+                "recall": 0.96,
+                "f1-score": 0.9552238805970149,
+                "support": 100.0
+            },
+            "표피낭종": {
+                "precision": 0.9512195121951219,
+                "recall": 0.78,
+                "f1-score": 0.8571428571428571,
+                "support": 100.0
+            },
+            "피부섬유종": {
+                "precision": 0.8765432098765432,
+                "recall": 0.71,
+                "f1-score": 0.7845303867403315,
+                "support": 100.0
+            },
+            "피지샘증식증": {
+                "precision": 0.4714285714285714,
+                "recall": 0.99,
+                "f1-score": 0.6387096774193548,
+                "support": 100.0
+            },
+            "혈관종": {
+                "precision": 0.9759036144578314,
+                "recall": 0.81,
+                "f1-score": 0.8852459016393442,
+                "support": 100.0
+            },
+            "화농 육아종": {
+                "precision": 0.847457627118644,
+                "recall": 1.0,
+                "f1-score": 0.9174311926605505,
+                "support": 100.0
+            },
+            "흑색점": {
+                "precision": 0.865979381443299,
+                "recall": 0.84,
+                "f1-score": 0.8527918781725888,
+                "support": 100.0
+            },
+            "accuracy": 0.772,
+            "macro avg": {
+                "precision": 0.8134923707620534,
+                "recall": 0.772,
+                "f1-score": 0.7700328668452919,
+                "support": 1500.0
+            },
+            "weighted avg": {
+                "precision": 0.8134923707620533,
+                "recall": 0.772,
+                "f1-score": 0.7700328668452918,
+                "support": 1500.0
+            }
+        },
+        "timestamp": "2025-09-01 17:14:58.395866"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_4.pth",
+        "class": "광선각화증",
+        "TP": 93,
+        "FP": 14,
+        "TN": 1386,
+        "FN": 7,
+        "timestamp": "2025-09-01 17:19:42.894486"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_4.pth",
+        "class": "기저세포암",
+        "TP": 93,
+        "FP": 5,
+        "TN": 1395,
+        "FN": 7,
+        "timestamp": "2025-09-01 17:19:42.894597"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_4.pth",
+        "class": "멜라닌세포모반",
+        "TP": 87,
+        "FP": 12,
+        "TN": 1388,
+        "FN": 13,
+        "timestamp": "2025-09-01 17:19:42.894623"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_4.pth",
+        "class": "보웬병",
+        "TP": 85,
+        "FP": 1,
+        "TN": 1399,
+        "FN": 15,
+        "timestamp": "2025-09-01 17:19:42.894676"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_4.pth",
+        "class": "비립종",
+        "TP": 39,
+        "FP": 4,
+        "TN": 1396,
+        "FN": 61,
+        "timestamp": "2025-09-01 17:19:42.894726"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_4.pth",
+        "class": "사마귀",
+        "TP": 66,
+        "FP": 6,
+        "TN": 1394,
+        "FN": 34,
+        "timestamp": "2025-09-01 17:19:42.894769"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_4.pth",
+        "class": "악성흑색종",
+        "TP": 87,
+        "FP": 6,
+        "TN": 1394,
+        "FN": 13,
+        "timestamp": "2025-09-01 17:19:42.894799"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_4.pth",
+        "class": "지루각화증",
+        "TP": 91,
+        "FP": 7,
+        "TN": 1393,
+        "FN": 9,
+        "timestamp": "2025-09-01 17:19:42.894835"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_4.pth",
+        "class": "편평세포암",
+        "TP": 95,
+        "FP": 18,
+        "TN": 1382,
+        "FN": 5,
+        "timestamp": "2025-09-01 17:19:42.894873"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_4.pth",
+        "class": "표피낭종",
+        "TP": 95,
+        "FP": 16,
+        "TN": 1384,
+        "FN": 5,
+        "timestamp": "2025-09-01 17:19:42.894904"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_4.pth",
+        "class": "피부섬유종",
+        "TP": 93,
+        "FP": 5,
+        "TN": 1395,
+        "FN": 7,
+        "timestamp": "2025-09-01 17:19:42.894937"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_4.pth",
+        "class": "피지샘증식증",
+        "TP": 99,
+        "FP": 78,
+        "TN": 1322,
+        "FN": 1,
+        "timestamp": "2025-09-01 17:19:42.894973"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_4.pth",
+        "class": "혈관종",
+        "TP": 100,
+        "FP": 18,
+        "TN": 1382,
+        "FN": 0,
+        "timestamp": "2025-09-01 17:19:42.894999"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_4.pth",
+        "class": "화농 육아종",
+        "TP": 97,
+        "FP": 3,
+        "TN": 1397,
+        "FN": 3,
+        "timestamp": "2025-09-01 17:19:42.895031"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_4.pth",
+        "class": "흑색점",
+        "TP": 85,
+        "FP": 2,
+        "TN": 1398,
+        "FN": 15,
+        "timestamp": "2025-09-01 17:19:42.895102"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_4.pth",
+        "top1_accuracy": 0.87,
+        "top3_accuracy": 0.978,
+        "roc_auc_ovr": 0.9935352380952381,
+        "classification_report": {
+            "광선각화증": {
+                "precision": 0.8691588785046729,
+                "recall": 0.93,
+                "f1-score": 0.8985507246376812,
+                "support": 100.0
+            },
+            "기저세포암": {
+                "precision": 0.9489795918367347,
+                "recall": 0.93,
+                "f1-score": 0.9393939393939394,
+                "support": 100.0
+            },
+            "멜라닌세포모반": {
+                "precision": 0.8787878787878788,
+                "recall": 0.87,
+                "f1-score": 0.8743718592964824,
+                "support": 100.0
+            },
+            "보웬병": {
+                "precision": 0.9883720930232558,
+                "recall": 0.85,
+                "f1-score": 0.9139784946236559,
+                "support": 100.0
+            },
+            "비립종": {
+                "precision": 0.9069767441860465,
+                "recall": 0.39,
+                "f1-score": 0.5454545454545454,
+                "support": 100.0
+            },
+            "사마귀": {
+                "precision": 0.9166666666666666,
+                "recall": 0.66,
+                "f1-score": 0.7674418604651163,
+                "support": 100.0
+            },
+            "악성흑색종": {
+                "precision": 0.9354838709677419,
+                "recall": 0.87,
+                "f1-score": 0.9015544041450777,
+                "support": 100.0
+            },
+            "지루각화증": {
+                "precision": 0.9285714285714286,
+                "recall": 0.91,
+                "f1-score": 0.9191919191919192,
+                "support": 100.0
+            },
+            "편평세포암": {
+                "precision": 0.8407079646017699,
+                "recall": 0.95,
+                "f1-score": 0.892018779342723,
+                "support": 100.0
+            },
+            "표피낭종": {
+                "precision": 0.8558558558558559,
+                "recall": 0.95,
+                "f1-score": 0.9004739336492891,
+                "support": 100.0
+            },
+            "피부섬유종": {
+                "precision": 0.9489795918367347,
+                "recall": 0.93,
+                "f1-score": 0.9393939393939394,
+                "support": 100.0
+            },
+            "피지샘증식증": {
+                "precision": 0.559322033898305,
+                "recall": 0.99,
+                "f1-score": 0.7148014440433214,
+                "support": 100.0
+            },
+            "혈관종": {
+                "precision": 0.847457627118644,
+                "recall": 1.0,
+                "f1-score": 0.9174311926605505,
+                "support": 100.0
+            },
+            "화농 육아종": {
+                "precision": 0.97,
+                "recall": 0.97,
+                "f1-score": 0.97,
+                "support": 100.0
+            },
+            "흑색점": {
+                "precision": 0.9770114942528736,
+                "recall": 0.85,
+                "f1-score": 0.9090909090909091,
+                "support": 100.0
+            },
+            "accuracy": 0.87,
+            "macro avg": {
+                "precision": 0.891488781340574,
+                "recall": 0.87,
+                "f1-score": 0.86687652969261,
+                "support": 1500.0
+            },
+            "weighted avg": {
+                "precision": 0.8914887813405741,
+                "recall": 0.87,
+                "f1-score": 0.8668765296926101,
+                "support": 1500.0
+            }
+        },
+        "timestamp": "2025-09-01 17:19:42.895138"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_5.pth",
+        "class": "광선각화증",
+        "TP": 97,
+        "FP": 18,
+        "TN": 1382,
+        "FN": 3,
+        "timestamp": "2025-09-01 17:24:28.086186"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_5.pth",
+        "class": "기저세포암",
+        "TP": 99,
+        "FP": 5,
+        "TN": 1395,
+        "FN": 1,
+        "timestamp": "2025-09-01 17:24:28.086296"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_5.pth",
+        "class": "멜라닌세포모반",
+        "TP": 63,
+        "FP": 0,
+        "TN": 1400,
+        "FN": 37,
+        "timestamp": "2025-09-01 17:24:28.086359"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_5.pth",
+        "class": "보웬병",
+        "TP": 96,
+        "FP": 1,
+        "TN": 1399,
+        "FN": 4,
+        "timestamp": "2025-09-01 17:24:28.086401"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_5.pth",
+        "class": "비립종",
+        "TP": 97,
+        "FP": 26,
+        "TN": 1374,
+        "FN": 3,
+        "timestamp": "2025-09-01 17:24:28.086440"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_5.pth",
+        "class": "사마귀",
+        "TP": 87,
+        "FP": 57,
+        "TN": 1343,
+        "FN": 13,
+        "timestamp": "2025-09-01 17:24:28.086489"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_5.pth",
+        "class": "악성흑색종",
+        "TP": 92,
+        "FP": 17,
+        "TN": 1383,
+        "FN": 8,
+        "timestamp": "2025-09-01 17:24:28.086527"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_5.pth",
+        "class": "지루각화증",
+        "TP": 92,
+        "FP": 9,
+        "TN": 1391,
+        "FN": 8,
+        "timestamp": "2025-09-01 17:24:28.086572"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_5.pth",
+        "class": "편평세포암",
+        "TP": 98,
+        "FP": 4,
+        "TN": 1396,
+        "FN": 2,
+        "timestamp": "2025-09-01 17:24:28.086596"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_5.pth",
+        "class": "표피낭종",
+        "TP": 57,
+        "FP": 0,
+        "TN": 1400,
+        "FN": 43,
+        "timestamp": "2025-09-01 17:24:28.086628"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_5.pth",
+        "class": "피부섬유종",
+        "TP": 51,
+        "FP": 1,
+        "TN": 1399,
+        "FN": 49,
+        "timestamp": "2025-09-01 17:24:28.086752"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_5.pth",
+        "class": "피지샘증식증",
+        "TP": 87,
+        "FP": 12,
+        "TN": 1388,
+        "FN": 13,
+        "timestamp": "2025-09-01 17:24:28.086797"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_5.pth",
+        "class": "혈관종",
+        "TP": 72,
+        "FP": 0,
+        "TN": 1400,
+        "FN": 28,
+        "timestamp": "2025-09-01 17:24:28.086826"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_5.pth",
+        "class": "화농 육아종",
+        "TP": 100,
+        "FP": 66,
+        "TN": 1334,
+        "FN": 0,
+        "timestamp": "2025-09-01 17:24:28.086861"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_5.pth",
+        "class": "흑색점",
+        "TP": 94,
+        "FP": 2,
+        "TN": 1398,
+        "FN": 6,
+        "timestamp": "2025-09-01 17:24:28.087831"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_5.pth",
+        "top1_accuracy": 0.8546666666666667,
+        "top3_accuracy": 0.9773333333333334,
+        "roc_auc_ovr": 0.9940166666666664,
+        "classification_report": {
+            "광선각화증": {
+                "precision": 0.8434782608695652,
+                "recall": 0.97,
+                "f1-score": 0.9023255813953488,
+                "support": 100.0
+            },
+            "기저세포암": {
+                "precision": 0.9519230769230769,
+                "recall": 0.99,
+                "f1-score": 0.9705882352941176,
+                "support": 100.0
+            },
+            "멜라닌세포모반": {
+                "precision": 1.0,
+                "recall": 0.63,
+                "f1-score": 0.7730061349693251,
+                "support": 100.0
+            },
+            "보웬병": {
+                "precision": 0.9896907216494846,
+                "recall": 0.96,
+                "f1-score": 0.9746192893401016,
+                "support": 100.0
+            },
+            "비립종": {
+                "precision": 0.7886178861788617,
+                "recall": 0.97,
+                "f1-score": 0.8699551569506726,
+                "support": 100.0
+            },
+            "사마귀": {
+                "precision": 0.6041666666666666,
+                "recall": 0.87,
+                "f1-score": 0.7131147540983607,
+                "support": 100.0
+            },
+            "악성흑색종": {
+                "precision": 0.8440366972477065,
+                "recall": 0.92,
+                "f1-score": 0.8803827751196173,
+                "support": 100.0
+            },
+            "지루각화증": {
+                "precision": 0.9108910891089109,
+                "recall": 0.92,
+                "f1-score": 0.9154228855721394,
+                "support": 100.0
+            },
+            "편평세포암": {
+                "precision": 0.9607843137254902,
+                "recall": 0.98,
+                "f1-score": 0.9702970297029703,
+                "support": 100.0
+            },
+            "표피낭종": {
+                "precision": 1.0,
+                "recall": 0.57,
+                "f1-score": 0.7261146496815286,
+                "support": 100.0
+            },
+            "피부섬유종": {
+                "precision": 0.9807692307692307,
+                "recall": 0.51,
+                "f1-score": 0.6710526315789473,
+                "support": 100.0
+            },
+            "피지샘증식증": {
+                "precision": 0.8787878787878788,
+                "recall": 0.87,
+                "f1-score": 0.8743718592964824,
+                "support": 100.0
+            },
+            "혈관종": {
+                "precision": 1.0,
+                "recall": 0.72,
+                "f1-score": 0.8372093023255814,
+                "support": 100.0
+            },
+            "화농 육아종": {
+                "precision": 0.6024096385542169,
+                "recall": 1.0,
+                "f1-score": 0.7518796992481203,
+                "support": 100.0
+            },
+            "흑색점": {
+                "precision": 0.9791666666666666,
+                "recall": 0.94,
+                "f1-score": 0.9591836734693877,
+                "support": 100.0
+            },
+            "accuracy": 0.8546666666666667,
+            "macro avg": {
+                "precision": 0.8889814751431836,
+                "recall": 0.8546666666666666,
+                "f1-score": 0.85263491053618,
+                "support": 1500.0
+            },
+            "weighted avg": {
+                "precision": 0.8889814751431839,
+                "recall": 0.8546666666666667,
+                "f1-score": 0.8526349105361801,
+                "support": 1500.0
+            }
+        },
+        "timestamp": "2025-09-01 17:24:28.088116"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_6.pth",
+        "class": "광선각화증",
+        "TP": 89,
+        "FP": 13,
+        "TN": 1387,
+        "FN": 11,
+        "timestamp": "2025-09-01 17:29:12.502231"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_6.pth",
+        "class": "기저세포암",
+        "TP": 94,
+        "FP": 4,
+        "TN": 1396,
+        "FN": 6,
+        "timestamp": "2025-09-01 17:29:12.502338"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_6.pth",
+        "class": "멜라닌세포모반",
+        "TP": 74,
+        "FP": 5,
+        "TN": 1395,
+        "FN": 26,
+        "timestamp": "2025-09-01 17:29:12.502384"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_6.pth",
+        "class": "보웬병",
+        "TP": 99,
+        "FP": 29,
+        "TN": 1371,
+        "FN": 1,
+        "timestamp": "2025-09-01 17:29:12.502425"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_6.pth",
+        "class": "비립종",
+        "TP": 100,
+        "FP": 35,
+        "TN": 1365,
+        "FN": 0,
+        "timestamp": "2025-09-01 17:29:12.502476"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_6.pth",
+        "class": "사마귀",
+        "TP": 81,
+        "FP": 8,
+        "TN": 1392,
+        "FN": 19,
+        "timestamp": "2025-09-01 17:29:12.502516"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_6.pth",
+        "class": "악성흑색종",
+        "TP": 94,
+        "FP": 7,
+        "TN": 1393,
+        "FN": 6,
+        "timestamp": "2025-09-01 17:29:12.502702"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_6.pth",
+        "class": "지루각화증",
+        "TP": 100,
+        "FP": 59,
+        "TN": 1341,
+        "FN": 0,
+        "timestamp": "2025-09-01 17:29:12.502759"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_6.pth",
+        "class": "편평세포암",
+        "TP": 81,
+        "FP": 0,
+        "TN": 1400,
+        "FN": 19,
+        "timestamp": "2025-09-01 17:29:12.502836"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_6.pth",
+        "class": "표피낭종",
+        "TP": 83,
+        "FP": 3,
+        "TN": 1397,
+        "FN": 17,
+        "timestamp": "2025-09-01 17:29:12.502959"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_6.pth",
+        "class": "피부섬유종",
+        "TP": 98,
+        "FP": 14,
+        "TN": 1386,
+        "FN": 2,
+        "timestamp": "2025-09-01 17:29:12.503383"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_6.pth",
+        "class": "피지샘증식증",
+        "TP": 70,
+        "FP": 7,
+        "TN": 1393,
+        "FN": 30,
+        "timestamp": "2025-09-01 17:29:12.503664"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_6.pth",
+        "class": "혈관종",
+        "TP": 55,
+        "FP": 0,
+        "TN": 1400,
+        "FN": 45,
+        "timestamp": "2025-09-01 17:29:12.503764"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_6.pth",
+        "class": "화농 육아종",
+        "TP": 100,
+        "FP": 33,
+        "TN": 1367,
+        "FN": 0,
+        "timestamp": "2025-09-01 17:29:12.503826"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_6.pth",
+        "class": "흑색점",
+        "TP": 65,
+        "FP": 0,
+        "TN": 1400,
+        "FN": 35,
+        "timestamp": "2025-09-01 17:29:12.503886"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_6.pth",
+        "top1_accuracy": 0.8553333333333333,
+        "top3_accuracy": 0.9806666666666667,
+        "roc_auc_ovr": 0.994982380952381,
+        "classification_report": {
+            "광선각화증": {
+                "precision": 0.8725490196078431,
+                "recall": 0.89,
+                "f1-score": 0.8811881188118812,
+                "support": 100.0
+            },
+            "기저세포암": {
+                "precision": 0.9591836734693877,
+                "recall": 0.94,
+                "f1-score": 0.9494949494949495,
+                "support": 100.0
+            },
+            "멜라닌세포모반": {
+                "precision": 0.9367088607594937,
+                "recall": 0.74,
+                "f1-score": 0.8268156424581006,
+                "support": 100.0
+            },
+            "보웬병": {
+                "precision": 0.7734375,
+                "recall": 0.99,
+                "f1-score": 0.868421052631579,
+                "support": 100.0
+            },
+            "비립종": {
+                "precision": 0.7407407407407407,
+                "recall": 1.0,
+                "f1-score": 0.851063829787234,
+                "support": 100.0
+            },
+            "사마귀": {
+                "precision": 0.9101123595505618,
+                "recall": 0.81,
+                "f1-score": 0.8571428571428571,
+                "support": 100.0
+            },
+            "악성흑색종": {
+                "precision": 0.9306930693069307,
+                "recall": 0.94,
+                "f1-score": 0.9353233830845771,
+                "support": 100.0
+            },
+            "지루각화증": {
+                "precision": 0.6289308176100629,
+                "recall": 1.0,
+                "f1-score": 0.7722007722007722,
+                "support": 100.0
+            },
+            "편평세포암": {
+                "precision": 1.0,
+                "recall": 0.81,
+                "f1-score": 0.8950276243093923,
+                "support": 100.0
+            },
+            "표피낭종": {
+                "precision": 0.9651162790697675,
+                "recall": 0.83,
+                "f1-score": 0.8924731182795699,
+                "support": 100.0
+            },
+            "피부섬유종": {
+                "precision": 0.875,
+                "recall": 0.98,
+                "f1-score": 0.9245283018867925,
+                "support": 100.0
+            },
+            "피지샘증식증": {
+                "precision": 0.9090909090909091,
+                "recall": 0.7,
+                "f1-score": 0.7909604519774012,
+                "support": 100.0
+            },
+            "혈관종": {
+                "precision": 1.0,
+                "recall": 0.55,
+                "f1-score": 0.7096774193548387,
+                "support": 100.0
+            },
+            "화농 육아종": {
+                "precision": 0.7518796992481203,
+                "recall": 1.0,
+                "f1-score": 0.8583690987124464,
+                "support": 100.0
+            },
+            "흑색점": {
+                "precision": 1.0,
+                "recall": 0.65,
+                "f1-score": 0.7878787878787878,
+                "support": 100.0
+            },
+            "accuracy": 0.8553333333333333,
+            "macro avg": {
+                "precision": 0.8835628618969211,
+                "recall": 0.8553333333333335,
+                "f1-score": 0.8533710272007453,
+                "support": 1500.0
+            },
+            "weighted avg": {
+                "precision": 0.8835628618969211,
+                "recall": 0.8553333333333333,
+                "f1-score": 0.8533710272007453,
+                "support": 1500.0
+            }
+        },
+        "timestamp": "2025-09-01 17:29:12.503913"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_7.pth",
+        "class": "광선각화증",
+        "TP": 87,
+        "FP": 39,
+        "TN": 1361,
+        "FN": 13,
+        "timestamp": "2025-09-01 17:33:41.169897"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_7.pth",
+        "class": "기저세포암",
+        "TP": 73,
+        "FP": 0,
+        "TN": 1400,
+        "FN": 27,
+        "timestamp": "2025-09-01 17:33:41.170015"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_7.pth",
+        "class": "멜라닌세포모반",
+        "TP": 93,
+        "FP": 22,
+        "TN": 1378,
+        "FN": 7,
+        "timestamp": "2025-09-01 17:33:41.170049"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_7.pth",
+        "class": "보웬병",
+        "TP": 66,
+        "FP": 0,
+        "TN": 1400,
+        "FN": 34,
+        "timestamp": "2025-09-01 17:33:41.170092"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_7.pth",
+        "class": "비립종",
+        "TP": 69,
+        "FP": 1,
+        "TN": 1399,
+        "FN": 31,
+        "timestamp": "2025-09-01 17:33:41.170127"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_7.pth",
+        "class": "사마귀",
+        "TP": 96,
+        "FP": 138,
+        "TN": 1262,
+        "FN": 4,
+        "timestamp": "2025-09-01 17:33:41.170168"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_7.pth",
+        "class": "악성흑색종",
+        "TP": 87,
+        "FP": 20,
+        "TN": 1380,
+        "FN": 13,
+        "timestamp": "2025-09-01 17:33:41.170218"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_7.pth",
+        "class": "지루각화증",
+        "TP": 67,
+        "FP": 0,
+        "TN": 1400,
+        "FN": 33,
+        "timestamp": "2025-09-01 17:33:41.170248"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_7.pth",
+        "class": "편평세포암",
+        "TP": 95,
+        "FP": 20,
+        "TN": 1380,
+        "FN": 5,
+        "timestamp": "2025-09-01 17:33:41.170267"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_7.pth",
+        "class": "표피낭종",
+        "TP": 91,
+        "FP": 5,
+        "TN": 1395,
+        "FN": 9,
+        "timestamp": "2025-09-01 17:33:41.170284"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_7.pth",
+        "class": "피부섬유종",
+        "TP": 74,
+        "FP": 5,
+        "TN": 1395,
+        "FN": 26,
+        "timestamp": "2025-09-01 17:33:41.170302"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_7.pth",
+        "class": "피지샘증식증",
+        "TP": 71,
+        "FP": 7,
+        "TN": 1393,
+        "FN": 29,
+        "timestamp": "2025-09-01 17:33:41.170319"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_7.pth",
+        "class": "혈관종",
+        "TP": 99,
+        "FP": 7,
+        "TN": 1393,
+        "FN": 1,
+        "timestamp": "2025-09-01 17:33:41.170357"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_7.pth",
+        "class": "화농 육아종",
+        "TP": 79,
+        "FP": 0,
+        "TN": 1400,
+        "FN": 21,
+        "timestamp": "2025-09-01 17:33:41.170383"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_7.pth",
+        "class": "흑색점",
+        "TP": 87,
+        "FP": 2,
+        "TN": 1398,
+        "FN": 13,
+        "timestamp": "2025-09-01 17:33:41.170402"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_7.pth",
+        "top1_accuracy": 0.8226666666666667,
+        "top3_accuracy": 0.9786666666666667,
+        "roc_auc_ovr": 0.9939476190476191,
+        "classification_report": {
+            "광선각화증": {
+                "precision": 0.6904761904761905,
+                "recall": 0.87,
+                "f1-score": 0.7699115044247787,
+                "support": 100.0
+            },
+            "기저세포암": {
+                "precision": 1.0,
+                "recall": 0.73,
+                "f1-score": 0.8439306358381503,
+                "support": 100.0
+            },
+            "멜라닌세포모반": {
+                "precision": 0.808695652173913,
+                "recall": 0.93,
+                "f1-score": 0.8651162790697674,
+                "support": 100.0
+            },
+            "보웬병": {
+                "precision": 1.0,
+                "recall": 0.66,
+                "f1-score": 0.7951807228915663,
+                "support": 100.0
+            },
+            "비립종": {
+                "precision": 0.9857142857142858,
+                "recall": 0.69,
+                "f1-score": 0.8117647058823529,
+                "support": 100.0
+            },
+            "사마귀": {
+                "precision": 0.41025641025641024,
+                "recall": 0.96,
+                "f1-score": 0.5748502994011976,
+                "support": 100.0
+            },
+            "악성흑색종": {
+                "precision": 0.8130841121495327,
+                "recall": 0.87,
+                "f1-score": 0.8405797101449275,
+                "support": 100.0
+            },
+            "지루각화증": {
+                "precision": 1.0,
+                "recall": 0.67,
+                "f1-score": 0.8023952095808383,
+                "support": 100.0
+            },
+            "편평세포암": {
+                "precision": 0.8260869565217391,
+                "recall": 0.95,
+                "f1-score": 0.8837209302325582,
+                "support": 100.0
+            },
+            "표피낭종": {
+                "precision": 0.9479166666666666,
+                "recall": 0.91,
+                "f1-score": 0.9285714285714286,
+                "support": 100.0
+            },
+            "피부섬유종": {
+                "precision": 0.9367088607594937,
+                "recall": 0.74,
+                "f1-score": 0.8268156424581006,
+                "support": 100.0
+            },
+            "피지샘증식증": {
+                "precision": 0.9102564102564102,
+                "recall": 0.71,
+                "f1-score": 0.797752808988764,
+                "support": 100.0
+            },
+            "혈관종": {
+                "precision": 0.9339622641509434,
+                "recall": 0.99,
+                "f1-score": 0.9611650485436893,
+                "support": 100.0
+            },
+            "화농 육아종": {
+                "precision": 1.0,
+                "recall": 0.79,
+                "f1-score": 0.88268156424581,
+                "support": 100.0
+            },
+            "흑색점": {
+                "precision": 0.9775280898876404,
+                "recall": 0.87,
+                "f1-score": 0.9206349206349206,
+                "support": 100.0
+            },
+            "accuracy": 0.8226666666666667,
+            "macro avg": {
+                "precision": 0.8827123932675484,
+                "recall": 0.8226666666666668,
+                "f1-score": 0.8336714273939235,
+                "support": 1500.0
+            },
+            "weighted avg": {
+                "precision": 0.8827123932675482,
+                "recall": 0.8226666666666667,
+                "f1-score": 0.8336714273939234,
+                "support": 1500.0
+            }
+        },
+        "timestamp": "2025-09-01 17:33:41.170436"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_8.pth",
+        "class": "광선각화증",
+        "TP": 90,
+        "FP": 7,
+        "TN": 1393,
+        "FN": 10,
+        "timestamp": "2025-09-01 17:38:11.090452"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_8.pth",
+        "class": "기저세포암",
+        "TP": 97,
+        "FP": 2,
+        "TN": 1398,
+        "FN": 3,
+        "timestamp": "2025-09-01 17:38:11.090559"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_8.pth",
+        "class": "멜라닌세포모반",
+        "TP": 98,
+        "FP": 28,
+        "TN": 1372,
+        "FN": 2,
+        "timestamp": "2025-09-01 17:38:11.090590"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_8.pth",
+        "class": "보웬병",
+        "TP": 97,
+        "FP": 5,
+        "TN": 1395,
+        "FN": 3,
+        "timestamp": "2025-09-01 17:38:11.090643"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_8.pth",
+        "class": "비립종",
+        "TP": 100,
+        "FP": 86,
+        "TN": 1314,
+        "FN": 0,
+        "timestamp": "2025-09-01 17:38:11.090684"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_8.pth",
+        "class": "사마귀",
+        "TP": 89,
+        "FP": 17,
+        "TN": 1383,
+        "FN": 11,
+        "timestamp": "2025-09-01 17:38:11.090712"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_8.pth",
+        "class": "악성흑색종",
+        "TP": 78,
+        "FP": 2,
+        "TN": 1398,
+        "FN": 22,
+        "timestamp": "2025-09-01 17:38:11.090747"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_8.pth",
+        "class": "지루각화증",
+        "TP": 97,
+        "FP": 7,
+        "TN": 1393,
+        "FN": 3,
+        "timestamp": "2025-09-01 17:38:11.090785"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_8.pth",
+        "class": "편평세포암",
+        "TP": 90,
+        "FP": 1,
+        "TN": 1399,
+        "FN": 10,
+        "timestamp": "2025-09-01 17:38:11.090813"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_8.pth",
+        "class": "표피낭종",
+        "TP": 87,
+        "FP": 1,
+        "TN": 1399,
+        "FN": 13,
+        "timestamp": "2025-09-01 17:38:11.090847"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_8.pth",
+        "class": "피부섬유종",
+        "TP": 97,
+        "FP": 5,
+        "TN": 1395,
+        "FN": 3,
+        "timestamp": "2025-09-01 17:38:11.090886"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_8.pth",
+        "class": "피지샘증식증",
+        "TP": 13,
+        "FP": 0,
+        "TN": 1400,
+        "FN": 87,
+        "timestamp": "2025-09-01 17:38:11.090925"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_8.pth",
+        "class": "혈관종",
+        "TP": 100,
+        "FP": 3,
+        "TN": 1397,
+        "FN": 0,
+        "timestamp": "2025-09-01 17:38:11.090967"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_8.pth",
+        "class": "화농 육아종",
+        "TP": 98,
+        "FP": 1,
+        "TN": 1399,
+        "FN": 2,
+        "timestamp": "2025-09-01 17:38:11.091008"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_8.pth",
+        "class": "흑색점",
+        "TP": 97,
+        "FP": 7,
+        "TN": 1393,
+        "FN": 3,
+        "timestamp": "2025-09-01 17:38:11.091047"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_8.pth",
+        "top1_accuracy": 0.8853333333333333,
+        "top3_accuracy": 0.9906666666666667,
+        "roc_auc_ovr": 0.9969395238095238,
+        "classification_report": {
+            "광선각화증": {
+                "precision": 0.9278350515463918,
+                "recall": 0.9,
+                "f1-score": 0.9137055837563451,
+                "support": 100.0
+            },
+            "기저세포암": {
+                "precision": 0.9797979797979798,
+                "recall": 0.97,
+                "f1-score": 0.9748743718592965,
+                "support": 100.0
+            },
+            "멜라닌세포모반": {
+                "precision": 0.7777777777777778,
+                "recall": 0.98,
+                "f1-score": 0.8672566371681416,
+                "support": 100.0
+            },
+            "보웬병": {
+                "precision": 0.9509803921568627,
+                "recall": 0.97,
+                "f1-score": 0.9603960396039604,
+                "support": 100.0
+            },
+            "비립종": {
+                "precision": 0.5376344086021505,
+                "recall": 1.0,
+                "f1-score": 0.6993006993006993,
+                "support": 100.0
+            },
+            "사마귀": {
+                "precision": 0.839622641509434,
+                "recall": 0.89,
+                "f1-score": 0.8640776699029126,
+                "support": 100.0
+            },
+            "악성흑색종": {
+                "precision": 0.975,
+                "recall": 0.78,
+                "f1-score": 0.8666666666666667,
+                "support": 100.0
+            },
+            "지루각화증": {
+                "precision": 0.9326923076923077,
+                "recall": 0.97,
+                "f1-score": 0.9509803921568627,
+                "support": 100.0
+            },
+            "편평세포암": {
+                "precision": 0.989010989010989,
+                "recall": 0.9,
+                "f1-score": 0.9424083769633508,
+                "support": 100.0
+            },
+            "표피낭종": {
+                "precision": 0.9886363636363636,
+                "recall": 0.87,
+                "f1-score": 0.925531914893617,
+                "support": 100.0
+            },
+            "피부섬유종": {
+                "precision": 0.9509803921568627,
+                "recall": 0.97,
+                "f1-score": 0.9603960396039604,
+                "support": 100.0
+            },
+            "피지샘증식증": {
+                "precision": 1.0,
+                "recall": 0.13,
+                "f1-score": 0.23008849557522124,
+                "support": 100.0
+            },
+            "혈관종": {
+                "precision": 0.970873786407767,
+                "recall": 1.0,
+                "f1-score": 0.9852216748768473,
+                "support": 100.0
+            },
+            "화농 육아종": {
+                "precision": 0.98989898989899,
+                "recall": 0.98,
+                "f1-score": 0.9849246231155779,
+                "support": 100.0
+            },
+            "흑색점": {
+                "precision": 0.9326923076923077,
+                "recall": 0.97,
+                "f1-score": 0.9509803921568627,
+                "support": 100.0
+            },
+            "accuracy": 0.8853333333333333,
+            "macro avg": {
+                "precision": 0.9162288925257457,
+                "recall": 0.8853333333333335,
+                "f1-score": 0.8717873051733548,
+                "support": 1500.0
+            },
+            "weighted avg": {
+                "precision": 0.9162288925257458,
+                "recall": 0.8853333333333333,
+                "f1-score": 0.8717873051733547,
+                "support": 1500.0
+            }
+        },
+        "timestamp": "2025-09-01 17:38:11.091088"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_9.pth",
+        "class": "광선각화증",
+        "TP": 97,
+        "FP": 16,
+        "TN": 1384,
+        "FN": 3,
+        "timestamp": "2025-09-01 17:42:45.560468"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_9.pth",
+        "class": "기저세포암",
+        "TP": 98,
+        "FP": 6,
+        "TN": 1394,
+        "FN": 2,
+        "timestamp": "2025-09-01 17:42:45.560584"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_9.pth",
+        "class": "멜라닌세포모반",
+        "TP": 94,
+        "FP": 24,
+        "TN": 1376,
+        "FN": 6,
+        "timestamp": "2025-09-01 17:42:45.560615"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_9.pth",
+        "class": "보웬병",
+        "TP": 98,
+        "FP": 4,
+        "TN": 1396,
+        "FN": 2,
+        "timestamp": "2025-09-01 17:42:45.560654"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_9.pth",
+        "class": "비립종",
+        "TP": 99,
+        "FP": 12,
+        "TN": 1388,
+        "FN": 1,
+        "timestamp": "2025-09-01 17:42:45.560842"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_9.pth",
+        "class": "사마귀",
+        "TP": 87,
+        "FP": 3,
+        "TN": 1397,
+        "FN": 13,
+        "timestamp": "2025-09-01 17:42:45.560921"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_9.pth",
+        "class": "악성흑색종",
+        "TP": 63,
+        "FP": 0,
+        "TN": 1400,
+        "FN": 37,
+        "timestamp": "2025-09-01 17:42:45.560947"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_9.pth",
+        "class": "지루각화증",
+        "TP": 97,
+        "FP": 7,
+        "TN": 1393,
+        "FN": 3,
+        "timestamp": "2025-09-01 17:42:45.560966"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_9.pth",
+        "class": "편평세포암",
+        "TP": 94,
+        "FP": 5,
+        "TN": 1395,
+        "FN": 6,
+        "timestamp": "2025-09-01 17:42:45.560982"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_9.pth",
+        "class": "표피낭종",
+        "TP": 98,
+        "FP": 12,
+        "TN": 1388,
+        "FN": 2,
+        "timestamp": "2025-09-01 17:42:45.561152"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_9.pth",
+        "class": "피부섬유종",
+        "TP": 95,
+        "FP": 3,
+        "TN": 1397,
+        "FN": 5,
+        "timestamp": "2025-09-01 17:42:45.561220"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_9.pth",
+        "class": "피지샘증식증",
+        "TP": 91,
+        "FP": 3,
+        "TN": 1397,
+        "FN": 9,
+        "timestamp": "2025-09-01 17:42:45.561287"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_9.pth",
+        "class": "혈관종",
+        "TP": 100,
+        "FP": 5,
+        "TN": 1395,
+        "FN": 0,
+        "timestamp": "2025-09-01 17:42:45.561391"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_9.pth",
+        "class": "화농 육아종",
+        "TP": 98,
+        "FP": 1,
+        "TN": 1399,
+        "FN": 2,
+        "timestamp": "2025-09-01 17:42:45.561556"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_9.pth",
+        "class": "흑색점",
+        "TP": 90,
+        "FP": 0,
+        "TN": 1400,
+        "FN": 10,
+        "timestamp": "2025-09-01 17:42:45.561681"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_9.pth",
+        "top1_accuracy": 0.9326666666666666,
+        "top3_accuracy": 0.99,
+        "roc_auc_ovr": 0.9973009523809524,
+        "classification_report": {
+            "광선각화증": {
+                "precision": 0.8584070796460177,
+                "recall": 0.97,
+                "f1-score": 0.9107981220657277,
+                "support": 100.0
+            },
+            "기저세포암": {
+                "precision": 0.9423076923076923,
+                "recall": 0.98,
+                "f1-score": 0.9607843137254902,
+                "support": 100.0
+            },
+            "멜라닌세포모반": {
+                "precision": 0.7966101694915254,
+                "recall": 0.94,
+                "f1-score": 0.8623853211009175,
+                "support": 100.0
+            },
+            "보웬병": {
+                "precision": 0.9607843137254902,
+                "recall": 0.98,
+                "f1-score": 0.9702970297029703,
+                "support": 100.0
+            },
+            "비립종": {
+                "precision": 0.8918918918918919,
+                "recall": 0.99,
+                "f1-score": 0.9383886255924171,
+                "support": 100.0
+            },
+            "사마귀": {
+                "precision": 0.9666666666666667,
+                "recall": 0.87,
+                "f1-score": 0.9157894736842105,
+                "support": 100.0
+            },
+            "악성흑색종": {
+                "precision": 1.0,
+                "recall": 0.63,
+                "f1-score": 0.7730061349693251,
+                "support": 100.0
+            },
+            "지루각화증": {
+                "precision": 0.9326923076923077,
+                "recall": 0.97,
+                "f1-score": 0.9509803921568627,
+                "support": 100.0
+            },
+            "편평세포암": {
+                "precision": 0.9494949494949495,
+                "recall": 0.94,
+                "f1-score": 0.9447236180904522,
+                "support": 100.0
+            },
+            "표피낭종": {
+                "precision": 0.8909090909090909,
+                "recall": 0.98,
+                "f1-score": 0.9333333333333333,
+                "support": 100.0
+            },
+            "피부섬유종": {
+                "precision": 0.9693877551020408,
+                "recall": 0.95,
+                "f1-score": 0.9595959595959596,
+                "support": 100.0
+            },
+            "피지샘증식증": {
+                "precision": 0.9680851063829787,
+                "recall": 0.91,
+                "f1-score": 0.9381443298969072,
+                "support": 100.0
+            },
+            "혈관종": {
+                "precision": 0.9523809523809523,
+                "recall": 1.0,
+                "f1-score": 0.975609756097561,
+                "support": 100.0
+            },
+            "화농 육아종": {
+                "precision": 0.98989898989899,
+                "recall": 0.98,
+                "f1-score": 0.9849246231155779,
+                "support": 100.0
+            },
+            "흑색점": {
+                "precision": 1.0,
+                "recall": 0.9,
+                "f1-score": 0.9473684210526315,
+                "support": 100.0
+            },
+            "accuracy": 0.9326666666666666,
+            "macro avg": {
+                "precision": 0.9379677977060397,
+                "recall": 0.9326666666666666,
+                "f1-score": 0.9310752969453564,
+                "support": 1500.0
+            },
+            "weighted avg": {
+                "precision": 0.9379677977060397,
+                "recall": 0.9326666666666666,
+                "f1-score": 0.9310752969453562,
+                "support": 1500.0
+            }
+        },
+        "timestamp": "2025-09-01 17:42:45.561744"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_10.pth",
+        "class": "광선각화증",
+        "TP": 94,
+        "FP": 7,
+        "TN": 1393,
+        "FN": 6,
+        "timestamp": "2025-09-01 17:47:17.482715"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_10.pth",
+        "class": "기저세포암",
+        "TP": 98,
+        "FP": 0,
+        "TN": 1400,
+        "FN": 2,
+        "timestamp": "2025-09-01 17:47:17.482833"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_10.pth",
+        "class": "멜라닌세포모반",
+        "TP": 90,
+        "FP": 3,
+        "TN": 1397,
+        "FN": 10,
+        "timestamp": "2025-09-01 17:47:17.482862"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_10.pth",
+        "class": "보웬병",
+        "TP": 99,
+        "FP": 3,
+        "TN": 1397,
+        "FN": 1,
+        "timestamp": "2025-09-01 17:47:17.482901"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_10.pth",
+        "class": "비립종",
+        "TP": 95,
+        "FP": 4,
+        "TN": 1396,
+        "FN": 5,
+        "timestamp": "2025-09-01 17:47:17.482942"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_10.pth",
+        "class": "사마귀",
+        "TP": 97,
+        "FP": 23,
+        "TN": 1377,
+        "FN": 3,
+        "timestamp": "2025-09-01 17:47:17.482970"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_10.pth",
+        "class": "악성흑색종",
+        "TP": 94,
+        "FP": 7,
+        "TN": 1393,
+        "FN": 6,
+        "timestamp": "2025-09-01 17:47:17.483118"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_10.pth",
+        "class": "지루각화증",
+        "TP": 97,
+        "FP": 3,
+        "TN": 1397,
+        "FN": 3,
+        "timestamp": "2025-09-01 17:47:17.483181"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_10.pth",
+        "class": "편평세포암",
+        "TP": 91,
+        "FP": 4,
+        "TN": 1396,
+        "FN": 9,
+        "timestamp": "2025-09-01 17:47:17.483278"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_10.pth",
+        "class": "표피낭종",
+        "TP": 95,
+        "FP": 0,
+        "TN": 1400,
+        "FN": 5,
+        "timestamp": "2025-09-01 17:47:17.483341"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_10.pth",
+        "class": "피부섬유종",
+        "TP": 99,
+        "FP": 0,
+        "TN": 1400,
+        "FN": 1,
+        "timestamp": "2025-09-01 17:47:17.483367"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_10.pth",
+        "class": "피지샘증식증",
+        "TP": 93,
+        "FP": 6,
+        "TN": 1394,
+        "FN": 7,
+        "timestamp": "2025-09-01 17:47:17.483819"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_10.pth",
+        "class": "혈관종",
+        "TP": 95,
+        "FP": 0,
+        "TN": 1400,
+        "FN": 5,
+        "timestamp": "2025-09-01 17:47:17.484257"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_10.pth",
+        "class": "화농 육아종",
+        "TP": 100,
+        "FP": 7,
+        "TN": 1393,
+        "FN": 0,
+        "timestamp": "2025-09-01 17:47:17.484290"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_10.pth",
+        "class": "흑색점",
+        "TP": 96,
+        "FP": 0,
+        "TN": 1400,
+        "FN": 4,
+        "timestamp": "2025-09-01 17:47:17.484309"
+    },
+    {
+        "checkpoint": "checkpoint_epoch_10.pth",
+        "top1_accuracy": 0.9553333333333334,
+        "top3_accuracy": 0.996,
+        "roc_auc_ovr": 0.9982690476190474,
+        "classification_report": {
+            "광선각화증": {
+                "precision": 0.9306930693069307,
+                "recall": 0.94,
+                "f1-score": 0.9353233830845771,
+                "support": 100.0
+            },
+            "기저세포암": {
+                "precision": 1.0,
+                "recall": 0.98,
+                "f1-score": 0.98989898989899,
+                "support": 100.0
+            },
+            "멜라닌세포모반": {
+                "precision": 0.967741935483871,
+                "recall": 0.9,
+                "f1-score": 0.9326424870466321,
+                "support": 100.0
+            },
+            "보웬병": {
+                "precision": 0.9705882352941176,
+                "recall": 0.99,
+                "f1-score": 0.9801980198019802,
+                "support": 100.0
+            },
+            "비립종": {
+                "precision": 0.9595959595959596,
+                "recall": 0.95,
+                "f1-score": 0.9547738693467337,
+                "support": 100.0
+            },
+            "사마귀": {
+                "precision": 0.8083333333333333,
+                "recall": 0.97,
+                "f1-score": 0.8818181818181818,
+                "support": 100.0
+            },
+            "악성흑색종": {
+                "precision": 0.9306930693069307,
+                "recall": 0.94,
+                "f1-score": 0.9353233830845771,
+                "support": 100.0
+            },
+            "지루각화증": {
+                "precision": 0.97,
+                "recall": 0.97,
+                "f1-score": 0.97,
+                "support": 100.0
+            },
+            "편평세포암": {
+                "precision": 0.9578947368421052,
+                "recall": 0.91,
+                "f1-score": 0.9333333333333333,
+                "support": 100.0
+            },
+            "표피낭종": {
+                "precision": 1.0,
+                "recall": 0.95,
+                "f1-score": 0.9743589743589743,
+                "support": 100.0
+            },
+            "피부섬유종": {
+                "precision": 1.0,
+                "recall": 0.99,
+                "f1-score": 0.9949748743718593,
+                "support": 100.0
+            },
+            "피지샘증식증": {
+                "precision": 0.9393939393939394,
+                "recall": 0.93,
+                "f1-score": 0.9346733668341709,
+                "support": 100.0
+            },
+            "혈관종": {
+                "precision": 1.0,
+                "recall": 0.95,
+                "f1-score": 0.9743589743589743,
+                "support": 100.0
+            },
+            "화농 육아종": {
+                "precision": 0.9345794392523364,
+                "recall": 1.0,
+                "f1-score": 0.966183574879227,
+                "support": 100.0
+            },
+            "흑색점": {
+                "precision": 1.0,
+                "recall": 0.96,
+                "f1-score": 0.9795918367346939,
+                "support": 100.0
+            },
+            "accuracy": 0.9553333333333334,
+            "macro avg": {
+                "precision": 0.9579675811873016,
+                "recall": 0.9553333333333333,
+                "f1-score": 0.9558302165968603,
+                "support": 1500.0
+            },
+            "weighted avg": {
+                "precision": 0.9579675811873016,
+                "recall": 0.9553333333333334,
+                "f1-score": 0.9558302165968604,
+                "support": 1500.0
+            }
+        },
+        "timestamp": "2025-09-01 17:47:17.484326"
+    },
+    {
+        "message": "Evaluation completed at 2025-09-01 17:47:18",
+        "timestamp": "2025-09-01 17:47:18.542505"
+    },
+    {
+        "message": "Total evaluation time: 2781.68 seconds",
+        "timestamp": "2025-09-01 17:47:18.542546"
+    }
+]

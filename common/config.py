@@ -81,6 +81,25 @@ TRANSFORM = transforms.Compose(
     ]
 )
 
+TRAIN_TRANSFORM = transforms.Compose(
+    [
+        transforms.RandomResizedCrop(IMG_SIZE),
+        transforms.RandomHorizontalFlip(p=0.5),
+        transforms.ColorJitter(0.1, 0.1, 0.1, 0.05),
+        transforms.ToTensor(),
+        transforms.Normalize(mean, std),
+    ]
+)
+
+VAL_TRANSFORM = transforms.Compose(
+    [
+        transforms.Resize(int(IMG_SIZE * 1.15)),
+        transforms.CenterCrop(IMG_SIZE),
+        transforms.ToTensor(),
+        transforms.Normalize(mean, std),
+    ]
+)
+
 
 # 한글 폰트 설정 함수
 def setup_korean_font():

@@ -47,8 +47,11 @@ WARMUP_EPOCHS = 1  # 워밍업 에폭 수 - 학습률을 점진적으로 증가�
 SEED = 42
 
 WORKER_NUM = 2 if torch.cuda.is_available() else 0
-# DEVICE = "cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu"  # GPU 사용 여부
-DEVICE = "cuda" if torch.cuda.is_available() else "cpu"  # GPU 사용 여부
+DEVICE = (
+    "cuda"
+    if torch.cuda.is_available()
+    else "mps" if torch.backends.mps.is_available() else "cpu"
+)  # GPU 사용 여부
 
 # 클래스 이름 정의 (고정된 순서)
 CLASS_NAMES = [

@@ -98,5 +98,8 @@ def print_test_results(results, model_name="Model"):
     plt.xticks(rotation=45, ha="right")
     plt.yticks(rotation=0)
     plt.tight_layout()
-    plt.savefig(os.path.join(LOG_DIR, "confusion_matrix.png"), dpi=300, bbox_inches="tight")
+    plt.savefig(
+        os.path.join(LOG_DIR, "confusion_matrix.png"), dpi=300, bbox_inches="tight"
+    )
+    plt.show()  # 이미지를 화면에 표시
     plt.close()

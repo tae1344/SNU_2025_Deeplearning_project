@@ -92,14 +92,16 @@ def print_test_results(results, model_name="Model"):
         xticklabels=CLASS_NAMES,
         yticklabels=CLASS_NAMES,
     )
-    plt.title("Confusion Matrix")
+    plt.title(f"Confusion Matrix-{model_name}")
     plt.xlabel("Predicted")
     plt.ylabel("Actual")
     plt.xticks(rotation=45, ha="right")
     plt.yticks(rotation=0)
     plt.tight_layout()
     plt.savefig(
-        os.path.join(LOG_DIR, "confusion_matrix.png"), dpi=300, bbox_inches="tight"
+        os.path.join(LOG_DIR, f"confusion_matrix_{model_name}.png"),
+        dpi=300,
+        bbox_inches="tight",
     )
     plt.show()  # 이미지를 화면에 표시
     plt.close()

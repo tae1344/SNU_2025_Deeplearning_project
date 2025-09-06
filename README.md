@@ -28,6 +28,7 @@ SNU 빅데이터 핀테크 AI 과정 - 딥러닝 팀 프로젝트 레포지토�
 │   └── best_vit_model.pth
 │
 ├── normalize_data.py
+├── generate_test_labels.py
 ├── 01_ResNet.ipynb
 ├── 02_Vit.ipynb
 ├── 03_ConvNet.ipynb
@@ -45,7 +46,7 @@ SNU 빅데이터 핀테크 AI 과정 - 딥러닝 팀 프로젝트 레포지토�
 - logs/ : 모델링, 검증에서 출력되는 log, 이미지 파일들
 - model/ : 각 모델별 best 성능 모델 파일
 - normalize_data.py : data/ 폴더 내 test/validation/train 폴더명 정규화 스크립트
-
+- generate_test_labels.py : test 데이터 셋의 라벨링 데이터가 없는 경우, 이미지 명을 기반으로 자동 생성되도록 해주는 스크립트
 
 ## data/ 구조 관련
 - 아래 이미지 처럼 기본 구조를 맞추고, 폴더명은 normalize_data.py를 돌리면 자동으로 폴더명 정리가 진행됨!

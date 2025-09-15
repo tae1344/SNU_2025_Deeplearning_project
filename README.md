@@ -15,25 +15,32 @@ SNU 빅데이터 핀테크 AI 과정 - 딥러닝 팀 프로젝트 레포지토�
 ├── data/
 │   ├── test/
 │   ├── train/
-│   └── validation/
+│   ├── validation/
+│   ├── new_test/
+│   ├── segmented_test/
+│   └── segmented_new_test/
 │
 ├── logs/
-│   ├── confusion_matrix.png
-│   ├── train_log.json
-│   └── train_logs/
+│   ├── confusion_matrix_*.png
+│   └── train_log_*.json
 │       
 ├── model/
+│   ├── mobile_sam.pt
+│   ├── baseline_best_model.pth.tar
 │   ├── best_convnet_model.pth
 │   ├── best_resnet_model.pth
+│   ├── best_swinV2-T_model.pth
 │   └── best_vit_model.pth
 │
 ├── normalize_data.py
 ├── generate_test_labels.py
+├── 00_Baseline_ResNet.ipynb
 ├── 01_ResNet.ipynb
 ├── 02_Vit.ipynb
 ├── 03_ConvNet.ipynb
 ├── 04_SwinTransformer.ipynb
 │
+├── scripts/
 ├── README.md
 └── .gitignore
 

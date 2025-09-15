@@ -22,6 +22,11 @@ VAL_IMAGE_DIR = os.path.join(
     BASE_DIR, "data/validation", "원천데이터"
 )  # 검증 이미지 데이터 경로
 
+
+# test : 원본 테스트 데이터
+# segmented_test : mobileSAM 처리된 테스트 데이터
+# new_test : 새로운 테스트 데이터
+# segmented_test_organized : mobileSAM 처리된 새로운 테스트 데이터
 TEST_LABEL_DIR = os.path.join(
     BASE_DIR, "data/test", "라벨링데이터"
 )  # 테스트 라벨 데이터 경로
@@ -98,6 +103,14 @@ VAL_TRANSFORM = transforms.Compose(
     [
         transforms.Resize(int(IMG_SIZE * 1.15)),
         transforms.CenterCrop(IMG_SIZE),
+        transforms.ToTensor(),
+        transforms.Normalize(mean, std),
+    ]
+)
+
+VAL_SEGMENTATION_TRANSFORM = transforms.Compose(
+    [
+        transforms.Resize((224, 224)),
         transforms.ToTensor(),
         transforms.Normalize(mean, std),
     ]

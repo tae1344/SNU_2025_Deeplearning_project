@@ -4,6 +4,16 @@ from PIL import Image
 from torch.utils.data import Dataset
 from collections import Counter
 from tqdm import tqdm
+from pathlib import Path
+
+
+def _find_image_any_ext(base_path_no_ext: Path):
+    for ext in (".jpg", ".jpeg", ".png", ".JPG", ".JPEG", ".PNG"):
+        p = base_path_no_ext.with_suffix(ext)
+        if p.exists():
+            return str(p)
+    return None
+
 
 class CustomDataset(Dataset):
     def __init__(self, label_folder, image_folder, transform=None):
@@ -61,21 +71,33 @@ class CustomDataset(Dataset):
                     if diagnosis_name not in self.diagnosis_to_label:
                         print(f"Unknown diagnosis found: {diagnosis_name}. Skipping this entry.")
                         continue
-                    
+
                     label = self.diagnosis_to_label[diagnosis_name]
 
-                    img_path = os.path.join(self.image_folder, annotation['bbox']['file_path'])
+                    raw_rel_path = annotation["bbox"]["file_path"]  # JSON 경로(확장자 신뢰 X)
+                    # image_folder 기준으로 결합
+                    candidate = os.path.join(self.image_folder, raw_rel_path)
+
+                    # 1) 그대로 존재하면 사용
+                    if os.path.exists(candidate):
+                        img_path = candidate
+                    else:
+                        # 2) 스템 기준으로 확장자 유연 탐색
+                        base_stem = Path(candidate).with_suffix("")  # 확장자 제거
+                        found = _find_image_any_ext(base_stem)
+                        if found is None:
+                            print(f"이미지를 찾을 수 없습니다(확장자 탐색 실패): {candidate}")
+                            continue
+                        img_path = found
 
                     try:
                         image = Image.open(img_path).convert("RGB")
-
                         if self.transform:
                             image = self.transform(image)
-
                         self.images.append(image)
-                        self.identifiers.append(identifier)  # identifier 저장
+                        self.identifiers.append(identifier)
                         self.labels.append(label)
-                        self.label_counts[diagnosis_name] += 1  # 클래스별 개수 추가
+                        self.label_counts[diagnosis_name] += 1
                     except (FileNotFoundError, OSError) as e:
                         print(f"이미지를 읽을 수 없습니다: {img_path}. 오류: {e}")
                         continue
@@ -99,4 +121,3 @@ class CustomDataset(Dataset):
         각 클래스별 데이터 개수를 반환
         """
         return self.label_counts
-    

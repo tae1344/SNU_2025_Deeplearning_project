@@ -5,3 +5,13 @@ data/validation/*
 data/*
 
 .cursor/*
+
+__pycache__/
+.DS_Store
+.ipynb_checkpoints/
+.vscode/
+.cursor/
+.cursorrules
+.cursorignore
+.cursorignorerules
+.cursorignorerules
